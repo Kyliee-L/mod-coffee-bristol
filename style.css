@@ -51,3 +51,32 @@ a:hover {
     margin-bottom: 10px; /* 每一行飲品分開啲 */
     font-size: 1.2rem; /* 字大粒啲 */
 }
+/* style.css */
+
+/* 1. 針對 nav 裡面的 ul (清單) */
+nav ul {
+    display: flex; /* 召喚 Flexbox！(關鍵) */
+    justify-content: center; /* 令佢地在中間集合 */
+    list-style-type: none; /* 拎走前面粒黑點 */
+    padding: 0; /* 清走多餘空間 */
+    gap: 30px; /* 每個連結之間保持 30px 距離 (新式寫法，超好用!) */
+}
+
+/* 2. 針對 nav 裡面的 li (項目) */
+nav li {
+    /* 這裡暫時留空，因為 Flexbox 已經幫你在 ul 搞掂咗排版 */
+}
+
+/* 3. 美化連結文字 (如果你之前未加) */
+nav a {
+    text-decoration: none; /* 去底線 */
+    color: #4b3621; /* 咖啡色 */
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase; /* 自動變大楷 (好似高級 Cafe 咁) */
+}
+
+nav a:hover {
+    color: #d2691e; /* hover 變色 */
+    border-bottom: 2px solid #d2691e; /* hover 加下劃線 */
+}
