@@ -29,3 +29,25 @@ a:hover {
     color: #4b3621; /* 滑鼠指住變深色 */
     text-decoration: underline;
 }
+/* style.css */
+
+.menu-card {
+    background-color: white; /* 白色卡片背景 */
+    width: 300px; /* 限制卡片闊度 */
+    margin: 20px auto; /* 上下留 20px，左右 auto (即係置中!) */
+    padding: 20px; /* 內邊距：令啲字唔好貼住邊 */
+    border: 2px solid #4b3621; /* 加個深色邊框 */
+    border-radius: 10px; /* 令角變圓 (好睇好多!) */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1); /* 加少少陰影，有立體感 */
+}
+
+.menu-card h2 {
+    border-bottom: 1px dashed #d2691e; /* 標題下面加虛線 */
+    padding-bottom: 10px; /* 條線同字分開啲 */
+}
+
+.menu-card li {
+    list-style: none; /* 唔要清單前面粒黑點 */
+    margin-bottom: 10px; /* 每一行飲品分開啲 */
+    font-size: 1.2rem; /* 字大粒啲 */
+}
