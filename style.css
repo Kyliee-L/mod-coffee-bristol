@@ -1,0 +1,31 @@
+/* 這是 CSS，用來控制網站的樣子 */
+
+body {
+    background-color: #f5f5dc; /* 米黃色 (Beige) 背景，好似咖啡紙杯 */
+    font-family: Arial, sans-serif; /* 改用無襯線字體，Modern 啲 */
+    color: #4b3621; /* 深咖啡色文字 */
+    margin: 40px; /* 留點邊距，唔好貼住個螢幕邊 */
+}
+
+h1 {
+    color: #d2691e; /* 朱古力色標題 */
+    text-align: center; /* 置中 */
+}
+
+nav {
+    text-align: center; /* 導航欄置中 */
+    padding: 20px;
+    border-bottom: 2px solid #d2691e; /* 底部加條線 */
+}
+
+a {
+    text-decoration: none; /* 唔要底線 */
+    color: #d2691e;
+    font-weight: bold;
+    margin: 0 15px; /* 連結之間分開啲 */
+}
+
+a:hover {
+    color: #4b3621; /* 滑鼠指住變深色 */
+    text-decoration: underline;
+}
