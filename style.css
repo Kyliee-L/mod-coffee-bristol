@@ -80,3 +80,45 @@ nav a:hover {
     color: #d2691e; /* hover 變色 */
     border-bottom: 2px solid #d2691e; /* hover 加下劃線 */
 }
+
+/* Hero Section */
+.hero-container {
+    display: flex; /* 令字同圖並排 */
+    align-items: center; /* 垂直置中 */
+    justify-content: space-between; /* 左右分開 */
+    padding: 50px;
+    background-color: #fff; /* 白色背景突顯 */
+}
+
+.hero-text {
+    flex: 1; /* 佔一半位 */
+    padding-right: 20px;
+}
+
+.hero-image {
+    flex: 1; /* 佔另一半位 */
+}
+
+.hero-image img {
+    width: 100%; /* 圖片自動縮放 */
+    border-radius: 10px; /* 圓角 */
+    box-shadow: 10px 10px 0px #d2691e; /* 型格陰影 */
+}
+
+/* 按鈕樣式 (Call to Action) */
+.btn {
+    display: inline-block;
+    background-color: #d2691e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #4b3621; /* 深咖啡色底 */
+    color: white; /* 白字 */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px; /* 同上面內容保持距離 */
+}
